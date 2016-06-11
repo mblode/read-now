@@ -1,0 +1,17 @@
+body {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 640px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h4 {
+  font-size: 24px;
+}
