@@ -6,19 +6,24 @@
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:700,700italic|PT+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="styles/marx.css" rel="stylesheet">
     <!-- build:css styles/main.css -->
     <link href="styles/main.css" rel="stylesheet">
     <!-- endbuild -->
   </head>
   <body>
-  <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-          <div id="show-data"></div>
-        </div>
+  <main class="container">
+    <h1 id="show-title"></h1>
+    <div class="info">
+      <a id="show-site_name" target="_blank"></a>
+      <p>&middot;</p>
+      <p id="show-author"></p>
+      <p>&middot;</p>
+      <p id="show-date"></p>
     </div>
-  </div>
+    <div id="show-data"></div>
+  </main>
 
     <!-- build:js scripts/popup-vendor.js -->
     <!-- bower:js -->

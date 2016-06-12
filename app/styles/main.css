@@ -1,17 +1,14 @@
-body {
-  padding: 20px;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
 .container {
-  max-width: 640px;
+  padding: 0 16px 16px;
 }
 
-img {
-  max-width: 100%;
+.info p,
+.info a {
+  font-size: 14px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.54);
 }
 
-h4 {
-  font-size: 24px;
+.info a:hover {
+  color: #2196f3;
 }
