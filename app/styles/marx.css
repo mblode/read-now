@@ -248,7 +248,7 @@ summary {
 main {
   display: block;
   margin: 0 auto;
-  max-width: 768px;
+  max-width: 700px;
   /*padding: 0 16px 16px;*/ }
 
 footer {
@@ -288,8 +288,7 @@ body {
   line-height: 1.6; }
 
 p {
-  margin: 0;
-  margin-bottom: 16px; }
+  margin: 10px 0; }
 
 h1,
 h2,
@@ -302,20 +301,19 @@ h6 {
   font-family: 'PT Sans', sans-serif; }
 
 h1 {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   font-size: 36px;
   font-weight: 700;
-  margin: 20px 0 16px; }
+  margin: 40px 0 10px; }
 
 h2 {
   font-size: 30px;
   font-weight: 700;
-  margin: 20px 0 16px; }
+  margin: 20px 0 10px; }
 
 h3 {
   font-size: 24px;
   font-weight: 700;
-  margin: 16px 0 4px; }
+  margin: 16px 0 10px; }
 
 h4 {
   font-size: 22px;
@@ -377,11 +375,13 @@ ol {
   vertical-align: baseline; }
 
 blockquote {
-  border-left: 2px solid #2196f3;
+  border-left: 3px solid rgba(0, 0, 0, 0.8);
   font-family: Georgia, Times, "Times New Roman", serif;
   font-style: italic;
-  margin: 16px 0;
-  padding-left: 16px; }
+  margin-left: -16px;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;}
 
 figcaption {
   font-family: Georgia, Times, "Times New Roman", serif; }
