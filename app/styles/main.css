@@ -22,3 +22,8 @@ img {
     font-size: 18px;
   }
 }
+
+iframe {
+  width: 700px;
+  height: 430px;
+}

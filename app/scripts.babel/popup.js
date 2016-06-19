@@ -27,8 +27,12 @@ $(document).ready(function(){
         $('#show-title').text(data.title);
         $('#show-site_name').attr('href', data.url);
         $('#show-site_name').text(data.site_name);
-        $('#show-author').text('by ' + data.author);
-        $('#show-date').text(dateConvert);
+        if (data.author != null) {
+          $('#show-author').text('\xB7' + ' by ' + data.author);
+        }
+        if (dateConvert != 'Jan 1, 1970') {
+          $('#show-date').text('\xB7' + ' ' + dateConvert);
+        }
         $('#show-data').append(data.html);
       }
     });
