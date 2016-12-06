@@ -285,10 +285,10 @@ body {
   color: rgba(0, 0, 0, 0.8);
   font-family: 'PT Serif', serif;
   font-size: 20px;
-  line-height: 1.6; }
+  line-height: 1.5; }
 
 p {
-  margin: 10px 0; }
+  margin-bottom: 30px; }
 
 h1,
 h2,

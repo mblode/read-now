@@ -15,25 +15,17 @@ function timeConverter(unix_timestamp){
 $(document).ready(function(){
     $.ajax({
       type: 'GET',
-      data: { 'api_key': '7b97c4224de44b31972f7ad4c37d8eff', 'url': previewUrl, 'callback': 'test' },
-      dataType: 'json',
-      crossDomain: true,
-      url: 'https://www.instaparser.com/api/1/article',
+      data: {'url': previewUrl },
+      contentType: 'application/json',
+      headers: {'X-API-Key': 'dxrvYOC82H8SXTMwbXulbjEEYHBDKk6td8IVHMPe'},
+      url: 'https://mercury.postlight.com/parser',
 
       success: function(data) {
         console.log(data);
-        var dateParse = data.date;
-        var dateConvert = timeConverter(dateParse);
         $('#show-title').text(data.title);
         $('#show-site_name').attr('href', data.url);
-        $('#show-site_name').text(data.site_name);
-        if (data.author != null) {
-          $('#show-author').text('\xB7' + ' by ' + data.author);
-        }
-        if (dateConvert != 'Jan 1, 1970') {
-          $('#show-date').text('\xB7' + ' ' + dateConvert);
-        }
-        $('#show-data').append(data.html);
+        $('#show-site_name').text(data.domain);
+        $('#show-data').append(data.content);
       }
     });
 });
