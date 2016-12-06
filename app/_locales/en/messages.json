@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "Instaparser Chrome",
-    "description": "Instaparser Chrome"
+    "message": "Read Now",
+    "description": "Read Now"
   },
   "appDescription": {
-    "message": "Open websites using Instaparser.",
-    "description": "Open websites using Instaparser."
+    "message": "Open websites using Mercury Web Parser by Postlight.",
+    "description": "Open websites using Mercury Web Parser by Postlight."
   }
 }

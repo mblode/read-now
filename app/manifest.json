@@ -18,13 +18,13 @@
   "web_accessible_resources": ["popup.html"],
   "permissions": [
     "tabs",
-    "https://www.instaparser.com/api/1/article"
+    "https://mercury.postlight.com/parser"
   ],
   "browser_action": {
     "default_icon": {
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "instaparser chrome"
+    "default_title": "Read Now"
   }
 }

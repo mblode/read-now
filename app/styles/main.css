@@ -15,6 +15,7 @@
 
 img {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 700px) {
@@ -26,4 +27,12 @@ img {
 iframe {
   width: 700px;
   height: 430px;
+}
+
+#show-site {
+  color: rgba(0, 0, 0, .8);
+}
+
+#show-site:hover {
+  color: rgba(0, 0, 0, .8);
 }
